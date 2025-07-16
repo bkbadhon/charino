@@ -1,0 +1,56 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+  position: relative;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 0 20px;
+  color: white;
+}
+
+.banner-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.banner-text {
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+}
+
+.banner-button {
+  background-color: #facc15; /* Tailwind's yellow-400 */
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 12rem;
+}
+
+.banner-button:hover {
+  background-color: #eab308; /* Tailwind's yellow-500 */
+}
