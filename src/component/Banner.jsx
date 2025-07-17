@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../assets/images/banner.webp';
 import './Banner.css';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
@@ -15,9 +16,11 @@ const Banner = () => {
           <p className="banner-text">
             Discover the best services and solutions tailored to your needs. We help you achieve your goals with confidence.
           </p>
-          <button className="banner-button text-black font-semibold">
-            Discover More
-          </button>
+          <Link to="/about">
+            <button className="banner-button text-black font-semibold">
+              Discover More
+            </button>
+          </Link>
         </div>
       </div>
     </div>

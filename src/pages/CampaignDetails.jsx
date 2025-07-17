@@ -62,7 +62,7 @@ const CampaignDetails = () => {
   }
 
   return (
-    <div className="w-10/12 text-black mx-auto my-10 grid gap-8 grid-cols-1 md:grid-cols-2">
+    <div className="md:w-10/12 text-black mx-auto p-3 my-10 grid gap-8 grid-cols-1 md:grid-cols-2">
       <div>
         <img
           src={campaign.image}
@@ -82,7 +82,7 @@ const CampaignDetails = () => {
         </div>
       </div>
 
-      <div className="bg-white shadow rounded p-6">
+      <div className="bg-white shadow rounded p-4">
         <h3 className="text-xl font-bold mb-4">Donate to this campaign</h3>
         <div className="space-y-4">
           <input

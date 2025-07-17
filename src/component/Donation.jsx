@@ -20,8 +20,8 @@ const Donation = () => {
   return (
     <div className="my-16">
       {/* Header */}
-      <div className="w-10/12 mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
-        <div className="text-left">
+      <div className="md:w-10/12  mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="md:text-left text-center">
           <h2 className="text-2xl font-bold text-green-900 mb-1">
             Our Donations
           </h2>
@@ -38,7 +38,7 @@ const Donation = () => {
       </div>
 
       {/* Campaigns */}
-      <div className="w-10/12 mx-auto grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8">
+      <div className="md:w-10/12 mx-auto grid p-3 gap-6 grid-cols-2 md:grid-cols-2 lg:grid-cols-3 mt-8">
         {campaigns.map((campaign) => (
           <div
             key={campaign._id}
